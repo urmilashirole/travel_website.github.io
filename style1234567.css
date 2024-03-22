@@ -1,0 +1,177 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    text-transform:capitalize;
+    outline:none;
+    /* border:none; */
+    border-radius: 0px;
+    text-decoration:none;
+    transition:all 0.2s linear;
+}
+.btn{
+    display:inline-block;
+    margin-top:1rem;
+    background:orange;
+    color:bisque;
+    padding:2px 2px;
+    border:0.5px solid orange;
+    cursor:pointer;
+    font-size:15px;
+}
+.btn:hover{
+    background:rgba(255, 165, 0, 2);
+    color:orange;
+}
+header{
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    background:skyblue;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:2rem 9%;
+    word-spacing: 10px;
+}
+header .logo{
+    font-size:25px;
+    font-weight:bolder;
+    color:beige;
+    text-transform:uppercase;
+}
+header .logo span{
+    color:orange;
+}
+header .navbar a{
+    color:azure;
+    font-size:20px;
+    margin:0.8rem;
+}
+header .navbar a:hover{
+    color:orange;
+    text-decoration:underline;
+    transition:0.5s;
+}
+.contact{
+    padding-top:150px;
+}
+.contact .heading{
+    text-align:center;
+    margin-bottom:50px;
+}
+.contact .heading span{
+    font-size:3.5rem;
+    background:rgba(255, 265,0, .3);
+    color:orange;
+    border-radius:.5rem;
+    padding:.5rem;
+    display:inline-block;
+}
+.contact .row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:1.5rem;
+    align-items:center;
+}
+.contact .row .image{
+    flex:1 1 35rem;
+}
+.contact .row .image img{
+    /* width:100%; */
+}
+.contact .row form{
+    flex:1 1 5rem;
+    /* padding:1rem; */
+    box-shadow:0 1rem 2rem rgba(240, 143, 16, 0.5);
+    border-radius:.4rem;
+    padding-right:220px;
+}
+.contact .row form .inputbox{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    box-shadow:0 1rem 2rem rgba(209, 167, 53, 0.4);
+    margin-left:20px;
+}
+.contact .row form .inputbox input, .contact .row form textarea{
+    width:49%;
+    margin:1rem 0;
+    padding:.5rem;
+    font-size:1rem;
+    color:#333;
+    background:#f7f7f7;
+    text-transform:none;
+}
+.contact .row form textarea{
+    height:5rem;
+    resize:none;
+    width:100%;    
+    margin-left:20px;
+}
+.contact .row form .btn{
+    height:40px;
+    width:150px;
+    margin-bottom:20px;
+    margin-left:20px;
+    font-weight:bold;
+    color:black;
+}
+.contact .row form .btn:hover{
+    background:rgba(255, 265,0, .3);
+}
+.footer{
+    background:#333;
+}
+.footer .box-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:1.5rem;
+}
+.footer .box-container .box{
+    padding:1rem 0;
+    flex:1 1 25rem;
+}
+.footer .box-container .box h3{
+    font-size:2.5rem;
+    padding:.7rem 0;
+    color:#fff;
+    margin-left:30px;
+}
+.footer .box-container .box h3:hover{
+    color:red;
+}
+.footer .box-container .box p{
+    font-size:1.5rem;
+    padding:.7rem 0;
+    color:#eee;
+    margin-left:30px;
+    text-align:justify;
+}
+.footer .box-container .box a{
+    display:block;
+    font-size:1.5rem;
+    padding:.7rem 0;
+    color:#eee;
+    margin-left:30px;
+}
+.footer .box-container .box a:hover{
+    color:orange;
+    text-decoration:underline;
+}
+.footer .credit{
+    text-align:center;
+    padding:2rem 1rem;
+    margin-top:1rem;
+    font-size:2rem;
+    font-weight:normal;
+    color:#fff;
+    border-top:.1rem solid rgba(255, 165, 0, .2);
+}
+.footer .credit span{
+    color:orange;
+}
+
+
